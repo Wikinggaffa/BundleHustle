@@ -200,4 +200,11 @@ Art vibe: Pixel-retro
 
 Tone: Wholesome satire
 
-Game length: 30 days
+  Game length: 30 days
+
+## Development
+
+This repository contains a minimal pixel-retro prototype implemented in plain HTML, CSS, and JavaScript.
+
+- Open `index.html` in a browser to play.
+- Run `node tests/test_game.js` to execute a small logic test of the core loop.
