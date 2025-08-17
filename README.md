@@ -208,3 +208,7 @@ This repository contains a minimal pixel-retro prototype implemented in plain HT
 
 - Open `index.html` in a browser to play.
 - Run `node tests/test_game.js` to execute a small logic test of the core loop.
+
+## Farm Game
+
+A simple farming prototype is available as well. Open `farm.html` in a browser to plant seeds, grow crops, and sell your harvest. Core logic lives in `farmGame.js` and is tested with `tests/test_farmGame.js`.
