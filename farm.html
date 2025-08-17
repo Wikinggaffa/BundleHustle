@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Farm Game</title>
+  <link rel="stylesheet" href="farmStyles.css" />
+</head>
+<body>
+  <div id="hud">Money: $<span id="money"></span> <button id="next-day">Next Day</button></div>
+  <div id="tools">
+    <button data-tool="hoe">Hoe</button>
+    <button data-tool="water">Water</button>
+    <button data-tool="fertilize">Fertilize</button>
+    <button data-tool="harvest">Harvest</button>
+    <select id="seed-select"></select>
+    <button data-tool="plant" id="plant-btn">Plant</button>
+    <button id="buy-seed">Buy Seed</button>
+  </div>
+  <div id="grid"></div>
+  <div id="inventory"></div>
+  <script src="farmGame.js"></script>
+  <script src="farmUI.js"></script>
+</body>
+</html>
